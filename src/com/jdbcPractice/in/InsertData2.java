@@ -30,6 +30,7 @@ public class InsertData2 {
 
 			pstmt.setString(1,name);
 			pstmt.setString(2,city);
+			pstmt.executeUpdate();
 
 			System.out.println("Inserted..");
 			con.close();
